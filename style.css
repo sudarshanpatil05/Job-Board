@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #1e88e5;
+  color: white;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  margin: 0 10px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.post-btn {
+  background: #2ecc71;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #2196f3, #1e88e5);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+.hero-text {
+  max-width: 500px;
+}
+.count {
+  font-size: 14px;
+  opacity: 0.9;
+}
+.resume-btn {
+  background: #2ecc71;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  margin-top: 15px;
+}
+.hero-img img {
+  width: 350px;
+}
+
+/* JOB CARDS */
+.featured, #jobList {
+  padding: 40px;
+}
+.job-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* FORMS */
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-img img {
+    width: 250px;
+  }
+}
